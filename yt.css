@@ -1,0 +1,151 @@
+HTML,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.Header{
+    z-index: 100;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+.iconMenu{
+    display: flex;
+}
+.menu{
+    padding: 13px 12px 15px 25px;
+}
+.icon{
+    background-color: white;
+    padding: 5px 20px 5px 0px;
+    opacity: 1;
+}
+.input{
+    padding: 5px 0px 5px 200px;
+    
+}
+.innerInput{
+    border: 1px solid rgb(202, 200, 200);
+   box-shadow: 4px -8px 8px -7px rgba(203,203,203,0.75);
+-webkit-box-shadow: 4px -8px 8px -7px rgba(203,203,203,0.75);
+-moz-box-shadow: 4px -8px 8px -7px rgba(203,203,203,0.75);
+}
+.search{
+    border: 1px solid  rgba(203,203,203,0.75);;
+}
+.mic{
+    
+    padding-left: 2px;
+    width: 25px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.micOuter{
+    padding: 15px;
+}
+.cube{
+    padding: 8px 5px 5px 170px;
+}
+.dots{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+#signBut{
+    border: 1px solid #065fd4;
+    background-color: transparent;
+    color: #065fd4;
+ align-items: center;
+}
+.signtext{
+    padding-top: 2px;
+}
+a{
+    text-decoration: none;
+    color: #065fd4;
+    font-weight: 600
+    
+}
+.ContentBox{
+    
+    display: flex;
+    padding-top: 60px;
+    width: 15%;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+.homeBox{
+    min-width: 200px;
+    align-items: center;
+    background-color:transparent ;
+    opacity: 0.9;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 13px;
+    
+    padding: 8px 5px 12px 25px;
+}
+.homeBox:hover{
+    background-color:#f1eded ;
+}
+.mus:hover{
+    background-color:#f1eded ;
+}
+.selected{
+    background-color: #d8d5d5;
+ font-weight: 600;
+}
+.midPart{
+    min-width: 250px;
+    padding: 15px 15px 20px 20px;
+   
+}
+.ytSpec{
+    min-width: 25
+    0px;
+    padding: 10px 20px 10px 20px;
+}
+.im1{
+    padding: 7px;
+    display: flex;
+}
+.mus{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+.Contents{
+    margin-left: 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 200;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.con1{
+    padding: 5px 2px 5px 20px;
+}
+.but {
+  /* width: 100px; */
+  height: 32px;
+  border: 1px solid #d8d5d5;
+  border-radius: 15px;
+  
+}
+.Packet{
+    display: flex;
+}
+.MainContent{
+    
+    
+    padding: 20px;
+}
+.cont1{
+    padding: 15px 15px 25px 15px;
+}
